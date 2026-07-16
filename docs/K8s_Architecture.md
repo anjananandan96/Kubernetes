@@ -239,20 +239,6 @@ Pods are created and managed by higher-level objects like Deployments.
 
 ## Simple Diagram (textual)
 
-Control Plane (HA)
-[ Load Balancer ] -> [ kube-apiserver (N) ]
-                     [ kube-controller-manager (N) ]
-                     [ kube-scheduler (N) ]
-                     [ etcd cluster (3/5/7) ]
 
-Worker Nodes
-[ Node A ] - kubelet, kube-proxy, container runtime, Pods
-[ Node B ] - kubelet, kube-proxy, container runtime, Pods
-[ Node C ] - kubelet, kube-proxy, container runtime, Pods
-
-Services & Access
-User -> kubectl / Ingress -> Service -> Pod(s)
-
----
 
 This document was generated from user-provided notes and organized for clarity. You can add the diagram image to this file by uploading it to the repository and referencing it here.
