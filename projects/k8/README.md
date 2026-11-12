@@ -41,6 +41,8 @@ Get the Pod IP from the `kubectl get pods -o wide` output and replace `<pod-ip>`
 
 The Nginx application was successfully deployed, and I verified that the Nginx welcome page was accessible from inside the Minikube environment.
 
+![Terminal output showing the Nginx welcome page returned from the Minikube Pod](nginx-verification.png)
+
 ## Project Goal
 
 To gain practical experience with Kubernetes fundamentals, container orchestration, and application deployment.
